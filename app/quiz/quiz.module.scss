@@ -22,7 +22,7 @@
 
 .quiz_header {
     width: 100%;
-    flex-basis: auto;
+    flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,11 +30,11 @@
 }
 
 .quiz_answers {
+    flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    flex-basis: 100%;
 }
 
 .quiz_answers ul {
@@ -43,7 +43,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 35px;
-    padding: 15px;
+    padding: 15px 70px;
 }
 
 .quiz_answers li {
